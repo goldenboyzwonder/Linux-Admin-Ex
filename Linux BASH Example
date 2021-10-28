@@ -1,0 +1,30 @@
+While using Linux OS Ubuntu; I created a script for automation using BASH to review certain portions of the Linux system in this use case.
+Below is an example of the BASH script created:
+
+#!/bin/bash
+	
+
+	#Creates directory named RESEARCH
+	cd /home/sysadmin/
+	mkdir research
+	
+
+	#Lists auth.log and/or checks to see if it exists
+	ls /var/log/auth.log
+	
+
+	#Command is issued to see if Desktop and Downloads directories exists.
+	ls /home/sysadmin/
+	
+
+	#Lists the cat and ps binary files.
+	ls /bin/cat
+	ls /bin/ps
+	
+
+	#Checked to see if any scripts in temporary directory exists.
+	ls /tmp.
+	
+
+	#Check that the only certain users are listed in the /home directory 
+	ls /home.
